@@ -1,7 +1,7 @@
 # Site settings
-title: Client Name
+title: 4pFoods
 email: dev@ocupop.com
-url: "http://client_url.com"
+url: "http://inova.4pfoods.com"
 permalink: pretty
 
 # Social sharing
@@ -15,22 +15,6 @@ socialshare:
 # Google Analytics
 analytics_code:
 
-
-# Collections
-collections:
-  examples:
-    output: true
-    layout: default
-    permalink: /examples/:path/
-
-# defaults:
-#   - 
-#     scope:
-#       type: 'examples'
-#     values:
-#       layout: default
-#       variable_name: value
-
 # Build settings
 safe: false
 source: src
@@ -38,14 +22,5 @@ source: src
 
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-lunr-js-search
-
-
-# feed:
-#   title: Client Name
-#   description: Description of feed
-#   url: primary url
-#   path: alternate path
 
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder

@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-cloudcannon-template",
+  "name": "4p-whitelabel",
   "version": "0.3.0",
-  "description": "Project description...",
+  "description": "An intermediate solution for whitelabeling.",
   "private": true,
   "repository": {
     "type": "git",
