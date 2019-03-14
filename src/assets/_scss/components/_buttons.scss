@@ -1,0 +1,20 @@
+.btn {
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px 30px;
+  @include transition(.4s);
+  &.btn-secondary {
+    &:hover {
+      background-color: $blue-mid;
+      color: $white;
+    }
+  }
+  &.btn-link {
+    color: $secondary;
+    padding: 0;
+    text-transform: none;
+  }
+}
+

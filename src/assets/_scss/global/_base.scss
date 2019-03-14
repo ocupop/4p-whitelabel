@@ -9,3 +9,15 @@ section {
     padding: 60px 0;
   }
 }
+
+address {
+  font-family: $font-family-secondary;
+}
+
+dl {
+  dd,
+  dt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

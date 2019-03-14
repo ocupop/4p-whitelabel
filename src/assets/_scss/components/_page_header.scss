@@ -1,1 +1,57 @@
 #page-header {}
+
+#primarynav {
+  .nav-item {
+    .nav-link {
+      color: $gray-600;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      &.cart-link {
+        background-color: $primary;
+        color: $white;
+        padding: 10px 20px;
+      } 
+    }
+  }
+}
+
+#storenav-wrapper {
+  border-top: 1px solid $gray-400;
+  border-bottom: 1px solid $gray-400;
+}
+
+#storenav {
+  padding: 0;
+  .nav-link {
+    color: $gray-500;
+    text-transform: uppercase;
+  }
+  .navbar-text {
+    background-color: $beige;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    &:nth-of-type(1) {
+      position: relative;
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 25%;
+        right: 0;
+        width: 2px;
+        height: 50%;
+        background-color: $gray-300;
+      }
+    }
+    .text-primary {
+      font-weight: 800;
+    }
+  }
+}
+
+.navbar-brand {
+  width: 280px;
+}

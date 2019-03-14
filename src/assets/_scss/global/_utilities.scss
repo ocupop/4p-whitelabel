@@ -12,6 +12,7 @@
 }
 
 .content {
+  padding: 20px;
   position: relative;
   @extend %clearfix;
 }
@@ -41,6 +42,9 @@
   background-position: center center;
   &.aspect-1x1 {
     padding-top: 100%;
+  }
+  &.aspect-2x1 {
+    padding-top: 50%;
   }
   &.aspect-4x3 {
     padding-top: 75%;
@@ -86,5 +90,8 @@
 }
 
 // Color Utilities
+.bg-beige {
+  background-color: $beige;
+}
 
 // SVG Fill & Stroke Utilities

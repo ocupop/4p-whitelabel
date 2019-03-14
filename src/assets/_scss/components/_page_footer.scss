@@ -1,1 +1,15 @@
-#page-footer {}
+#page-footer {
+  padding: 50px 0;
+  .nav {
+    .nav-item {
+      .nav-link {
+        padding: 5px 0;
+      }
+    }
+  }
+  h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $white;
+  }
+}
