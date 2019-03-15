@@ -1,10 +1,9 @@
 <header id="page-header">
   <div class="container">
-    <nav id="mainnav" class="navbar navbar-expand-md">
-      <a class="navbar-brand cc-active" href="/">
-        <img
-          src="/assets/img/logo.svg"
-          class="img-fluid" alt="Inova logo" >
+    <nav id="mainnav" class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="/" title="{{ site.title }}"
+        onClick="ga('send', 'event', 'nav-image-link', '4P Logo', '{{ page.title }}');">
+        <img src="/assets/img/logo.svg" alt="{{ site.title }}">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav"
         aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,26 +11,36 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-md-end" id="primarynav">
-        <ul class="navbar-nav">
+
+        <ul class="nav navbar-nav mx-auto border-top">
           <li class="nav-item">
-            <a class="nav-link" href="https://iturnitoff.com/demo/" target="whtlbl">Demo</a>
-            <a class="nav-link" href="http://4pfoods.com/" target="whtlbl">Home</a>
-            <a class="nav-link" href="http://4pfoods.com/get-a-bag/" target="whtlbl">Get A Bag</a>
-            <a class="nav-link" href="http://4pfoods.com/how-it-works/" target="whtlbl">How It Works</a>
-            <a class="nav-link" href="http://4pfoods.com/category/blog/impact/" target="whtlbl">Impact</a>
-            <a class="nav-link" href="http://4pfoods.com/category/blog/farmer-profiles/" target="whtlbl">Our Farmers</a>
+            <a href="http://4pfoods.com/" target="whtlbl" class="nav-link" onClick="ga('send', 'event', 'navlink', 'Home', '{{ page.title }}');">Home</a>
           </li>
-          <li class="nav-item dropdown d-none">
-            <a class="nav-link dropdown-toggle cc-active" href="#" id="user-dropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              User name
-            </a>
-            <div class="dropdown-menu" aria-labelledby="user-dropdown">
-              <a class="dropdown-item cc-active" href="#">Action</a>
-              <a class="dropdown-item cc-active" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item cc-active" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a href="http://4pfoods.com/get-a-bag/" class="nav-link" onClick="ga('send', 'event', 'navlink', 'Get a Bag', '{{ page.title }}');">Get a Bag</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://4pfoods.com/how-it-works/" class="nav-link" onClick="ga('send', 'event', 'navlink', 'How it Works', '{{ page.title }}');">How it Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://4pfoods.com/impact/" class="nav-link"
+              onClick="ga('send', 'event', 'navlink', 'Impact', '{{ page.title }}');">Impact</a>
+          </li>
+          <li class="nav-item">
+            <a href="http://4pfoods.com/farmer-profiles/" class="nav-link"
+              onClick="ga('send', 'event', 'navlink', 'Our Farmers', '{{ page.title }}');">Our Farmers</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav float-md-right mt-4 mt-md-0">
+          <li class="nav-item">
+            {% if page.primary_cta == "signup" %}
+            <a href="{{ site.signup_url }}" class="btn btn-primary"
+              onClick="ga('send', 'event', 'navlink', 'Sign Up', '{{ page.title }}');">Sign up</a>
+            {% else %}
+            <a href="#next-step" class="btn btn-primary"
+              onClick="ga('send', 'event', 'navlink', 'Get Started', '{{ page.title }}');">Get Started</a>
+            {% endif %}
           </li>
         </ul>
       </div>

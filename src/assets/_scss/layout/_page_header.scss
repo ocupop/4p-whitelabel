@@ -1,0 +1,43 @@
+#page-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  box-shadow: 0 0 10px rgba($black, 0.2);
+  z-index: 99;
+  .navbar-brand {
+    img {
+      height: 32px;
+      margin: 8px 0;
+    }
+  }
+  .border-top,
+  .border-bottom {
+    @include media-breakpoint-up(md) {
+      border: 0 !important;
+    }
+  }
+}
+
+#primarynav {
+
+  .nav-link {
+    text-transform: uppercase;
+    margin: 0;
+    font-family: $headings-font-family;
+    padding:20px;
+    border-bottom:1px solid $gray-300;
+    @include media-breakpoint-up(md) {
+      border-bottom: 0 !important;
+    }
+  }
+
+  .btn {
+    font-size: 16px;
+    margin-bottom:30px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0 !important;
+    }
+  }
+}
