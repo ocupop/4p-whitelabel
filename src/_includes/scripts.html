@@ -2,7 +2,7 @@
 {% include analytics.html %}
 
 <!-- Javascript -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous" defer></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"
   defer></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"
@@ -20,6 +20,18 @@
 <script src="{{ '/assets/js/iframeResizer.min.js' | prepend: site.baseurl }}"></script>
 <!-- Search -->
 
-<script>iFrameResize({ log: true })</script>
+<script>
+
+  iFrameResize({ log: true })
+
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('#iframe1').on('load', function () {
+      $('#loader1').hide();
+    });
+  });
+</script>
 
 {% include search.html %}
