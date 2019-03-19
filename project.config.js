@@ -39,6 +39,7 @@ module.exports = {
       }
     },
     browser: "default",
+    // https: true,
     // [
     //   "Google Chrome Canary",
     //   "Google Chrome",

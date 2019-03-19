@@ -9,25 +9,27 @@
   defer></script>
 
 
- <!-- main js file--> 
+ <!-- main js file-->
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}" defer></script>
 <script src="{{ '/assets/js/vendor/iframeResizer.min.js' | prepend: site.baseurl }}"></script>
 <!-- Search -->
 
 
 <script>
-  // $(document).ready(function () {
-  //   $('#whtlbl').on('load', function () {
-  //     $('#loader1').hide();
-  //   });
-  // });
+  $(document).ready(function () {
+    $('#whtlbl').on('load', function () {
+      $('#loader1').hide();
+    });
+  });
 
-  iFrameResize({ log: true }, '#whtlbl')
+  iFrameResize({
+    log: true
+  }, '#whtlbl')
 
-  setTimeout(function () {
-      IFrame.resize();
-      console.log("RESIZED");
-    }, 3000);
+  // setTimeout(function () {
+  //     IFrame.resize();
+  //     console.log("RESIZED");
+  //   }, 3000);
 
 </script>
 
