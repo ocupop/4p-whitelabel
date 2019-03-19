@@ -7,34 +7,27 @@
   defer></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"
   defer></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" crossorigin="anonymous"
+  defer></script>
 
  <!-- main js file-->
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}" defer></script>
 <script src="{{ '/assets/js/vendor/iframeResizer.min.js' | prepend: site.baseurl }}"></script>
-<!-- Search -->
 
 
 <script>
   $(document).ready(function () {
-    const options = {
-
-    }
-    $('#exampleModalCenter').modal(options);
-
     $('#whtlbl').on('load', function () {
       $('#loader1').hide();
     });
   });
 
-  // iFrameResize({
-  //   log: true
-  // }, '#whtlbl')
-
-  // setTimeout(function () {
-  //     IFrame.resize();
-  //     console.log("RESIZED");
-  //   }, 3000);
+  const options = {
+    // log: true,
+    autoResize: true,
+    heightCalculationMethod: 'lowestElement'
+  }
+  const iframes = iFrameResize(options, '#whtlbl' );
 
 </script>
 

@@ -1,23 +1,20 @@
 #frameWrap {
-    position:relative;
-    min-height: 200px;
-    width: 100%;
-    border: 0px solid #000;
-    background:#ffffff;
+  position: relative;
 }
 
 #whtlbl {
-    width: 100%;
-    margin:0;
-    padding:0;
-    border:0;
+  width: 1px;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 #loader1 {
-    position:absolute;
-    left:50%;
-    top:30%;
-    margin-left:-36px;
-    border:0;
-    background:#ffffff;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -36px;
+  border: 0;
+  background: #ffffff;
 }
