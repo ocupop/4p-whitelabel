@@ -1,9 +1,9 @@
 let showIntro = Cookies.get('inova-intro')
 if (!showIntro) {
-  // $('#introModal').modal();
-  console.log("show modal");
+  // $('#introModal').modal('show');
+  console.log("Add show modal");
 }
 
-$('#introModal').on('close', function () {
+$('#introModal').on('shown.bs.modal', function () {
   Cookies.set('inova-intro', true)
 });
