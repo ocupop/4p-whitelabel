@@ -14,20 +14,20 @@
 
         <ul class="nav navbar-nav mx-auto border-top">
           <li class="nav-item">
-            <a href="http://4pfoods.com/" target="whtlbl" class="nav-link" onClick="ga('send', 'event', 'navlink', 'Home', '{{ page.title }}');">Home</a>
+            <a href="#intro" target="whtlbl" data-toggle="collapse" class="nav-link" onClick="ga('send', 'event', 'navlink', 'About', '{{ page.title }}');">About</a>
           </li>
           <li class="nav-item">
-            <a href="http://4pfoods.com/get-a-bag/" target="whtlbl" class="nav-link" onClick="ga('send', 'event', 'navlink', 'Get a Bag', '{{ page.title }}');">Get a Bag</a>
+            <a href="http://4pfoods.com/get-a-bag/" target="whtlbl" class="nav-link disabled" onClick="ga('send', 'event', 'navlink', 'Get a Bag', '{{ page.title }}');">Get a Bag</a>
           </li>
           <li class="nav-item">
-            <a href="http://4pfoods.com/how-it-works/" target="whtlbl" class="nav-link" onClick="ga('send', 'event', 'navlink', 'How it Works', '{{ page.title }}');">How it Works</a>
+            <a href="http://4pfoods.com/how-it-works/" target="whtlbl" class="nav-link disabled" onClick="ga('send', 'event', 'navlink', 'How it Works', '{{ page.title }}');">How it Works</a>
           </li>
           <li class="nav-item">
-            <a href="http://4pfoods.com/category/blog/impact/" target="whtlbl" class="nav-link"
+            <a href="http://4pfoods.com/category/blog/impact/" target="whtlbl" class="nav-link disabled"
               onClick="ga('send', 'event', 'navlink', 'Impact', '{{ page.title }}');">Impact</a>
           </li>
           <li class="nav-item">
-            <a href="http://4pfoods.com/category/blog/farmer-profiles/" target="whtlbl" class="nav-link"
+            <a href="http://4pfoods.com/category/blog/farmer-profiles/" target="whtlbl" class="nav-link disabled"
               onClick="ga('send', 'event', 'navlink', 'Our Farmers', '{{ page.title }}');">Our Farmers</a>
           </li>
 
@@ -38,7 +38,7 @@
             <a href="{{ site.signup_url }}" class="btn btn-primary"
               onClick="ga('send', 'event', 'navlink', 'Sign Up', '{{ page.title }}');">Sign up</a>
             {% else %}
-            <a href="http://wwws.4pfoods.com/" target="whtlbl" class="btn btn-primary"
+            <a href="http://wwws.4pfoods.com/" target="whtlbl" class="btn btn-primary disabled"
               onClick="ga('send', 'event', 'navlink', 'Get Started', '{{ page.title }}');">Get Started</a>
             {% endif %}
           </li>
