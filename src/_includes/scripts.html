@@ -7,13 +7,7 @@
   defer></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"
   defer></script>
-<!-- gsap and scrollmagic -->  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" crossorigin="anonymous" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" crossorigin="anonymous"
-  defer></script>
-<!-- animation plugin for using gsap with scrollmagic -->  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"
-  crossorigin="anonymous" defer></script>
+
 
  <!-- main js file--> 
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}" defer></script>
@@ -22,11 +16,20 @@
 
 
 <script>
-  $(document).ready(function () {
-    $('#iframe1').on('load', function () {
-      $('#loader1').hide();
-    });
-  });
+  // $(document).ready(function () {
+  //   $('#whtlbl').on('load', function () {
+  //     $('#loader1').hide();
+  //   });
+  // });
+
+  iFrameResize({ log: true }, '#whtlbl')
+
+  setTimeout(function () {
+      IFrame.resize();
+      console.log("RESIZED");
+    }, 3000);
+
 </script>
+
 
 {% include search.html %}
