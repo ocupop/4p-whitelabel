@@ -2,21 +2,20 @@
 @import "settings";
 @import "./node_modules/bootstrap/scss/bootstrap";
 
-@import 'mixins';
-@import 'utilities';
+@import "mixins";
+@import "utilities";
 
+@import "global/base";
+@import "global/fonts";
+@import "global/typography";
+@import "global/animations";
+@import "global/buttons";
+@import "global/cards";
+@import "global/carousel";
 
-@import 'global/base';
-@import 'global/fonts';
-@import 'global/typography';
-@import 'global/animations';
-@import 'global/buttons';
-@import 'global/cards';
-@import 'global/carousel';
-
-@import 'layout/page_header';
-@import 'layout/page_content';
-@import 'layout/page_footer';
+@import "layout/page_header";
+@import "layout/page_content";
+@import "layout/page_footer";
 // Components
-@import 'components/iframe';
-
+@import "components/iframe";
+@import "components/modals";
