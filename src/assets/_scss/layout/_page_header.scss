@@ -25,11 +25,14 @@
     text-transform: uppercase;
     margin: 0;
     font-family: $headings-font-family;
-    font-size: 14px;
-    padding: 20px;
+    font-size: 13px;
     border-bottom: 1px solid $gray-300;
     @include media-breakpoint-up(md) {
       border-bottom: 0 !important;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 15px;
+      padding: 20px;
     }
     &.disabled {
       color: rgba(0, 0, 0, 0.5);
