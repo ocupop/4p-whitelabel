@@ -15,3 +15,4 @@ $('#introModal').on('shown.bs.modal', function () {
   Cookies.set('inova-intro', true);
 });
 
+
