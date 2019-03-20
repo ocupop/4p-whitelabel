@@ -7,12 +7,12 @@ Cookies.defaults = {
 
 let showIntro = Cookies.get('inova-intro');
 if (!showIntro) {
-  // $('#introModal').modal('show');
-  Cookies.set('inova-intro', true);
+  $('#introModal').modal('show');
+  Cookies.set('inova-intro', "shown");
 }
 
 $('#introModal').on('shown.bs.modal', function () {
-  Cookies.set('inova-intro', true);
+  Cookies.set('inova-intro', "shown");
 });
 
 
