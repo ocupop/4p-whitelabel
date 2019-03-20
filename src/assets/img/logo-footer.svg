@@ -1,1 +1,14 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 583.51 224.7" xml:space="preserve"><style>.st1{fill:#ee3124}.st2{font-family:&apos;ProximaNova-Semibold&apos;}.st3{font-size:35.5738px}</style><path fill="#fff" d="M138.9 224.7H56.95v-64.22H0V60.03h61.11V0h77.79v16.69H77.8v60.02H16.69v67.08h56.96v64.22h65.25z"/><text transform="translate(139.021 105.605)" class="st1 st2 st3">INOVA Farm Share Program</text><text transform="translate(139.021 141.429)" class="st1 st2 st3">powered by 4pFoods.</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 583.5 224.7" style="enable-background:new 0 0 583.5 224.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#EE3124;}
+	.st2{font-family:'ProximaNova-Semibold';}
+	.st3{font-size:35.5738px;}
+</style>
+<path class="st0" d="M138.9,224.7H57v-64.2H0V60h61.1V0h77.8v16.7H77.8v60H16.7v67.1h57V208h65.2V224.7z"/>
+<text transform="matrix(1 0 0 1 139.021 105.605)" class="st1 st2 st3">INOVA CSA Program</text>
+<text transform="matrix(1 0 0 1 139.021 141.429)" class="st1 st2 st3">powered by 4pFoods.</text>
+</svg>
