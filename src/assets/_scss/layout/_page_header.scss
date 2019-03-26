@@ -19,6 +19,21 @@
     }
   }
 }
+#topnav {
+  p {
+    font-family: $headings-font-family;
+    font-size: 13px;
+    margin: 0;
+    color: $primary;
+    a {
+      color: inherit;
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+}
 
 #primarynav {
   .nav-link {
