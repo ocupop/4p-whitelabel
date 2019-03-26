@@ -1,4 +1,14 @@
 <header id="page-header">
+  <div id="topnav" class="bg-secondary">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-sm-4">
+          <p class="text-right">Already a member? &nbsp;&nbsp;<a href="/">Login</a></p>
+          <p class="text-right"><a href="/" class="d-none">Logout</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <nav id="mainnav" class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="/" title="{{ site.title }}"
@@ -11,7 +21,6 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-md-end" id="primarynav">
-
         <ul class="nav navbar-nav mx-auto border-top">
           <li class="nav-item">
             <a href="#intro" data-toggle="collapse" class="nav-link" onClick="ga('send', 'event', 'navlink', 'About', '{{ page.title }}');">About Program</a>
@@ -28,20 +37,21 @@
           </li>
           <li class="nav-item">
             <a href="/farmers" class="nav-link"
-              onClick="ga('send', 'event', 'navlink', 'Our Farmers', '{{ page.title }}');">The Farmers</a>
+              onClick="ga('send', 'event', 'navlink', 'The Farmers', '{{ page.title }}');">The Farmers</a>
           </li>
 
         </ul>
         <ul class="navbar-nav float-md-right mt-4 mt-md-0">
           <li class="nav-item">
-            {% if page.primary_cta == "signup" %}
-            <a href="{{ site.signup_url }}" class="btn btn-primary disabled"
-              onClick="ga('send', 'event', 'navlink', 'Sign Up', '{{ page.title }}');">Sign up</a>
-            {% else %}
-            <a href="http://wwws.4pfoods.com/" target="whtlbl" class="btn btn-primary disabled"
+            <a href="/get-a-bag" class="btn btn-primary"
               onClick="ga('send', 'event', 'navlink', 'Get Started', '{{ page.title }}');">Get Started</a>
-            {% endif %}
           </li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-md-end d-none" id="storenav">
+        <ul class="nav navbar-nav mx-auto border-top">
+
         </ul>
       </div>
     </nav>
