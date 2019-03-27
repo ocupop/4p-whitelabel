@@ -1,37 +1,15 @@
 ---
 layout: page
 title: Project Template
-framesrc: https://4pfoods.com/
 ---
 {% include intro.html %}
 <!-- Modal -->
-<button type="button" class="btn btn-primary d-none" data-toggle="modal" data-target="#introModal">
-  Launch demo modal
-</button>
 
-<div class="modal fade" id="introModal" tabindex="-1" role="dialog" aria-labelledby="introModalTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header align-items-end">
-        <img src="/assets/img/logo-modal.svg" alt="Inova" class="mr-2" style="height:50px;">
-        <h5 class="modal-title text-center" id="introModalTitle">Farm Share Program</h5>
-        <button type="button" class="close align-self-start" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-12">
-            {% include intro_content.html %}
-          </div>
-        </div>
-      </div>
+
+<section>
+  <div class="row">
+    <div class="col-12">
+      {% include intro_content.html %}
     </div>
   </div>
-</div>
-
-<div id="frameWrap">
-  <img id="loader1" src="/assets/img/Spinner-1s-200px.gif" width="72" height="72" alt="loading gif" />
-  <iframe id="whtlbl" name="whtlbl" src="https://4pfoods.com/" scrolling="no"></iframe>
-</div>
+</section>
