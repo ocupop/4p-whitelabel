@@ -24,3 +24,9 @@ if (auth) {
   console.log("NOT Authenticated");
 }
 
+
+
+$('body').on('4pAuth', function () {
+  console.log("GOTIT");
+});
+
