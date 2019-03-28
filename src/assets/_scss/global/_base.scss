@@ -1,7 +1,10 @@
 body {
   background-color: $body-bg;
   color: $body-color;
-  padding-top: 75px;
+  padding-top: 100px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 75px;
+  }
 }
 
 section {
