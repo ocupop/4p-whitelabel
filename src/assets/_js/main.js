@@ -25,8 +25,3 @@ if (auth) {
 }
 
 
-
-$('body').on('4pAuth', function () {
-  console.log("GOTIT");
-});
-
