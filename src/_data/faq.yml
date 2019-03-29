@@ -1,50 +1,219 @@
-- category: A-Cluster
+- category:
   questions:
-    - q: WHERE DOES 4P SOURCE ITS FOOD?
-      answer_html: <p>Much of our produce comes from small family farms in Virginia, Maryland and southern Pennsylvania. We also work with local food producers in the DC region to source delicious pickles, jams, sauerkraut, granolas, kombucha, and other value-added items. Each week you will receive more specifics on the exact farms your food comes from in our Weekly Harvest Newsletter, delivered to your inbox every Saturday.</p>
+    - q: WHERE DO WE SOURCE OUR FOOD?
+      answer_html: >-
+        <p>Much of our produce comes from small family farms in Virginia,
+        Maryland and southern Pennsylvania. We also work with local food
+        producers in the DC region to source delicious pickles, jams,
+        sauerkraut, granolas, kombucha, and other value-added items. Each week
+        you will receive more specifics on the exact farms your food comes from
+        in our Weekly Harvest Newsletter, delivered to your inbox every
+        Saturday.</p>
     - q: IS IT ORGANIC? WHAT ABOUT NON-GMO?
-      answer_html: <p>Some of it is organic and some of it is not. The certification process for USDA Organic is lengthy and expensive, so not all of the farmers we work with have chosen to become certified. We are firmly against the use of chemical fertilizers and pesticides as well as the use of GMO seeds and feed.We do our best to ensure that all of the farmers we work with align with this value system. It may be several years until enough farms in the DC foodshed have been certified for us to change the answer to this question to a simple yes. Until then, we hope that you will help us to support those farmers that we have identified as being good stewards of the land and the animals under their care.</p>
+      answer_html: >-
+        <p>Some of it is organic and some of it is not. The certification
+        process for USDA Organic is lengthy and expensive, so not all of the
+        farmers we work with have chosen to become certified. We are firmly
+        against the use of chemical fertilizers and pesticides as well as the
+        use of GMO seeds and feed.We do our best to ensure that all of the
+        farmers we work with align with this value system. It may be several
+        years until enough farms in the DC foodshed have been certified for us
+        to change the answer to this question to a simple yes. Until then, we
+        hope that you will help us to support those farmers that we have
+        identified as being good stewards of the land and the animals under
+        their care.</p>
     - q: WHERE DO I FIND OUT MORE ABOUT YOUR FARMERS?
-      answer_html: <p>Check out our Farmer Profiles page! We’re always updating it, so stay tuned for more profiles from the farmers we source from the most.</p>
+      answer_html: >-
+        <p>Check out our Farmer Profiles page! We’re always updating it, so stay
+        tuned for more profiles from the farmers we source from the most.</p>
     - q: WHAT IF I WANT TO SKIP A DELIVERY?
-      answer_html: <p>Go for it. On your account management page you have the option to skip or donate your subscription for up to 6 months at a time. If you skip, we won’t deliver your order and we won’t charge you. If you choose to donate your order, you will still pay for it, but we will deliver it to a family in need through our partnerships with Fauquier Food Bank, Martha’s Table, and YMCA Capital View instead. All we ask is that you skip any coming deliveries ahead of the 2-day cut-off period during which we have already put an order in with our farmers for our deliveries that week. The cut off begins at 11:59pm on Sunday for a Wednesday delivery; 11:59pm on Monday for a Thursday delivery; and 11:59pm on Tuesday for a Friday delivery.</p>
+      answer_html: >-
+        <p>Go for it. On your account management page you have the option to
+        skip or donate your subscription for up to 6 months at a time. If you
+        skip, we won’t deliver your order and we won’t charge you. If you choose
+        to donate your order, you will still pay for it, but we will deliver it
+        to a family in need through our partnerships with Fauquier Food Bank,
+        Martha’s Table, and YMCA Capital View instead. All we ask is that you
+        skip any coming deliveries ahead of the 2-day cut-off period during
+        which we have already put an order in with our farmers for our
+        deliveries that week. The cut off begins at 11:59pm on Sunday for a
+        Wednesday delivery; 11:59pm on Monday for a Thursday delivery; and
+        11:59pm on Tuesday for a Friday delivery.</p>
     - q: HOW DO I SKIP?
-      answer_html: <p>When skipping, just log into your account and go to “Subscriptions.” Under Subscriptions, you will see each of the types of shares you have, and underneath each one there will be a few different buttons. Click the “Skip” button.   When you click it another box will open showing four dates for the current month; they’ll be green by default. By clicking on “Delivery Options” under any of these dates, you’ll get an option either to skip a delivery or donate that week’s delivery to one of our food pantry partners. The date will change from green to light blue when you skip, or to dark blue when you donate. Then you’re all set!   You can also use the arrows at the bottom to set your schedule for the next six months. Just make sure to check back six months later to do it again! If you need to skip the upcoming week, make sure to skip before your skip deadline or the online system will not allow you to skip since it is past the cut-off. This is very important, so we can finalize numbers for our farmers!</p>
+      answer_html: >-
+        <p>When skipping, just log into your account and go to “Subscriptions.”
+        Under Subscriptions, you will see each of the types of shares you have,
+        and underneath each one there will be a few different buttons. Click the
+        “Skip” button.   When you click it another box will open showing four
+        dates for the current month; they’ll be green by default. By clicking on
+        “Delivery Options” under any of these dates, you’ll get an option either
+        to skip a delivery or donate that week’s delivery to one of our food
+        pantry partners. The date will change from green to light blue when you
+        skip, or to dark blue when you donate. Then you’re all set!   You can
+        also use the arrows at the bottom to set your schedule for the next six
+        months. Just make sure to check back six months later to do it again! If
+        you need to skip the upcoming week, make sure to skip before your skip
+        deadline or the online system will not allow you to skip since it is
+        past the cut-off. This is very important, so we can finalize numbers for
+        our farmers!</p>
     - q: WHAT IF I WANT TO SKIP LATE?
-      answer_html: <p>Please don’t, if you can avoid it! However, accidents do happen, especially if it’s your first time. Our skip deadlines are very important so that we can make sure we are able to fine-tune our orders with our farmers and minimize waste. However, if you really want to skip late, you could opt to donate your bag to one of our food pantry partners that week. Just email us at community@4pfoods.com and let us know.</p>
+      answer_html: >-
+        <p>Please don’t, if you can avoid it! However, accidents do happen,
+        especially if it’s your first time. Our skip deadlines are very
+        important so that we can make sure we are able to fine-tune our orders
+        with our farmers and minimize waste. However, if you really want to skip
+        late, you could opt to donate your bag to one of our food pantry
+        partners that week. Just email us at community@4pfoods.com and let us
+        know.</p>
     - q: IS THERE A MINIMUM COMMITMENT?
-      answer_html: <p>There is no minimum commitment and no tricky sign-up policy. Cancel anytime before your skip deadline – (but it might be worth a call or email to customer service first).</p>
+      answer_html: >-
+        <p>There is no minimum commitment and no tricky sign-up policy. Cancel
+        anytime before your skip deadline – (but it might be worth a call or
+        email to customer service first).</p>
     - q: WHAT DO YOU DELIVER?
-      answer_html: <p>We deliver healthy, sustainable, and purposeful food from farms within the DC foodshed. In the Spring, that means asparagus and strawberries. Summer, tomatoes and sweet corn. Autumn, = apples and leafy greens. And in the Winter, some of our greenhouse products like sprouts, lettuce, and maybe even some heirloom popcorn. Year-round it means great local meats and dairy where the animals are raised on open pasture and treated with dignity throughout their lives. In short, we deliver the bounty of your local foodshed, harvested daily and delivered to you. With 4P Foods you are voting with your fork for a more sustainable and equitable food system for everyone.</p>
+      answer_html: >-
+        <p>We deliver healthy, sustainable, and purposeful food from farms
+        within the DC foodshed. In the Spring, that means asparagus and
+        strawberries. Summer, tomatoes and sweet corn. Autumn, = apples and
+        leafy greens. And in the Winter, some of our greenhouse products like
+        sprouts, lettuce, and maybe even some heirloom popcorn. Year-round it
+        means great local meats and dairy where the animals are raised on open
+        pasture and treated with dignity throughout their lives. In short, we
+        deliver the bounty of your local foodshed, harvested daily and delivered
+        to you. With 4P Foods you are voting with your fork for a more
+        sustainable and equitable food system for everyone.</p>
     - q: IS MY BUILDING PARTICIPATING?
-      answer_html: <p>Maybe! Email, call, or inquire through our website. We’d be happy to look at your address and tell you if your building is already participating. If not, we’ll do everything we can to get your building signed up as soon as we can.   You can also sign up for direct home delivery if you live in an individual home. There is a $5 delivery fee to cover our overhead costs – it’s per delivery, not per bag.</p>
+      answer_html: >-
+        <p>Maybe! Email, call, or inquire through our website. We’d be happy to
+        look at your address and tell you if your building is already
+        participating. If not, we’ll do everything we can to get your building
+        signed up as soon as we can.   You can also sign up for direct home
+        delivery if you live in an individual home. There is a $5 delivery fee
+        to cover our overhead costs – it’s per delivery, not per bag.</p>
     - q: HOW DO I FIND OUT WHAT FOOD IS IN THE BAG THIS WEEK?
-      answer_html: <p>Each Saturday we send out a Weekly Harvest Newsletter straight to your inbox, making it simple to decide whether to order that week’s share or skip. We also include recipe ideas for all our delicious ingredients! If for some reason you are not receiving the email newsletter, email us at community@4pfoods.com so we can look into it. Make sure to check your spam folder, and if you are a gmail user, your promotions folder!</p>
+      answer_html: >-
+        <p>Each Saturday we send out a Weekly Harvest Newsletter straight to
+        your inbox, making it simple to decide whether to order that week’s
+        share or skip. We also include recipe ideas for all our delicious
+        ingredients! If for some reason you are not receiving the email
+        newsletter, email us at community@4pfoods.com so we can look into it.
+        Make sure to check your spam folder, and if you are a gmail user, your
+        promotions folder!</p>
     - q: WHAT IS MY DELIVERY DAY?
-      answer_html: '<p>As a tiny company we try to maximize our delivery efficiency as much as possible. To do that, we deliver to different neighborhoods on different days. Please email or call us if you have questions, but generally our delivery schedule is as follows:</p>
-      <p>Wednesday: Most of Washington, DC (excluding Georgetown, Tenleytown, Woodley Park & Friendship Heights).</p>
-      <p>Thursday: Georgetown and most of Northern Virginia (excluding Alexandria).</p>
-      <p>Friday: Most of Maryland, Alexandria, Friendship Heights, Tenleytown, & Woodley Park DC.</p>'
+      answer_html: >-
+        <p>As a tiny company we try to maximize our delivery efficiency as much
+        as possible. To do that, we deliver to different neighborhoods on
+        different days. Please email or call us if you have questions, but
+        generally our delivery schedule is as follows:</p> <p>Wednesday: Most of
+        Washington, DC (excluding Georgetown, Tenleytown, Woodley Park &
+        Friendship Heights).</p> <p>Thursday: Georgetown and most of Northern
+        Virginia (excluding Alexandria).</p> <p>Friday: Most of Maryland,
+        Alexandria, Friendship Heights, Tenleytown, & Woodley Park DC.</p>
     - q: CAN I CUSTOMIZE?
-      answer_html: '<p>Yes and no. 4PFoods operates like a supped up CSA (community-supported agriculture). Traditional CSA’s include a weekly selection of whatever is local and seasonal that week, and we do too.   We offer an online platform where you can customize your bags week to week. Simply login after you receive your newsletter and before your skip deadline.   Don’t like kale? Maybe swap them out for extra sweet potatoes. We also keep a selection of great value-added items from awesome local producers, such as jams, sauerkraut, pickles, granola, dried beans, flours, honey, salad dressing, etc., so feel free to swap out produce for those items and try them out.   Have a Dairy share, but don’t like milk? No worries – you can customize to have no milk, and add extra yogurt or cheese if you prefer. Or if you prefer low-fat milk or plain yogurt, you can make substitutions there.   Don’t like beef, but love chicken? Feel free to select from a list of extra cuts of meat in our freezer and build your own Protein share.   The online swapping system is points-based and points don’t roll over week to week – but you do get a few extra points to play around with each week. Please read more about the online swapping system here!</p>'
+      answer_html: >-
+        <p>Yes and no. 4PFoods operates like a supped up CSA
+        (community-supported agriculture). Traditional CSA’s include a weekly
+        selection of whatever is local and seasonal that week, and we do too.  
+        We offer an online platform where you can customize your bags week to
+        week. Simply login after you receive your newsletter and before your
+        skip deadline.   Don’t like kale? Maybe swap them out for extra sweet
+        potatoes. We also keep a selection of great value-added items from
+        awesome local producers, such as jams, sauerkraut, pickles, granola,
+        dried beans, flours, honey, salad dressing, etc., so feel free to swap
+        out produce for those items and try them out.   Have a Dairy share, but
+        don’t like milk? No worries – you can customize to have no milk, and add
+        extra yogurt or cheese if you prefer. Or if you prefer low-fat milk or
+        plain yogurt, you can make substitutions there.   Don’t like beef, but
+        love chicken? Feel free to select from a list of extra cuts of meat in
+        our freezer and build your own Protein share.   The online swapping
+        system is points-based and points don’t roll over week to week – but you
+        do get a few extra points to play around with each week. Please read
+        more about the online swapping system here!</p>
     - q: WHAT IF I’M ALLERGIC TO SOMETHING?
-      answer_html: '<p>When you create your account, there is a box called “Dietary Restrictions.” You can fill this out with any allergies or foods you should avoid. Our operations team will check these when bags are being packed up.   Note though, it’s much easier if you swap out the offending items yourself with our online swapping system and pick extra items you would appreciate more! We are humans (although veggie robots would be cool), so unfortunately we do make mistakes from time to time when packing bags. If you do receive an item you can’t have, please email us and we will give you a refund.</p>'      
+      answer_html: >-
+        <p>When you create your account, there is a box called “Dietary
+        Restrictions.” You can fill this out with any allergies or foods you
+        should avoid. Our operations team will check these when bags are being
+        packed up.   Note though, it’s much easier if you swap out the offending
+        items yourself with our online swapping system and pick extra items you
+        would appreciate more! We are humans (although veggie robots would be
+        cool), so unfortunately we do make mistakes from time to time when
+        packing bags. If you do receive an item you can’t have, please email us
+        and we will give you a refund.</p>
     - q: HOW DOES DELIVERY WORK?
-      answer_html: '<p>This will depend on your building, and every building is different. But in general:   If you signed up for direct home delivery, we usually deliver the bags right to your doorstep.   For larger buildings such as commercial buildings or apartment complexes, we deliver the bags to a front desk with a concierge, to a leasing office, or management office.   For some of our office deliveries, we deliver straight to your office (usually to the receptionist desk).   And of course, there might be some exceptions with other buildings. When you sign up, we’ll send you a welcome email within a few days after to clarify pick up details. But please feel free to reach out to us directly if you’re not sure!   For all deliveries, you will receive an automatic email notification when our driver drops off your bag.</p>'   
+      answer_html: >-
+        <p>This will depend on your building, and every building is different.
+        But in general:   If you signed up for direct home delivery, we usually
+        deliver the bags right to your doorstep.   For larger buildings such as
+        commercial buildings or apartment complexes, we deliver the bags to a
+        front desk with a concierge, to a leasing office, or management
+        office.   For some of our office deliveries, we deliver straight to your
+        office (usually to the receptionist desk).   And of course, there might
+        be some exceptions with other buildings. When you sign up, we’ll send
+        you a welcome email within a few days after to clarify pick up details.
+        But please feel free to reach out to us directly if you’re not sure!  
+        For all deliveries, you will receive an automatic email notification
+        when our driver drops off your bag.</p>
     - q: HOW IS THE FOOD DELIVERED? WILL IT STAY FRESH?
-      answer_html: '<p>As long as you can pick up your food that day, you should be fine. We deliver our produce in insulated tote bags to keep everything fresh. For our meat, dairy, and eggs, we deliver them in nifty insulted cooler boxes to keep everything cold for up to 24 hours.   You’ll also receive an email notification when your bag arrives, so you know when it’s available.</p>'   
+      answer_html: >-
+        <p>As long as you can pick up your food that day, you should be fine. We
+        deliver our produce in insulated tote bags to keep everything fresh. For
+        our meat, dairy, and eggs, we deliver them in nifty insulted cooler
+        boxes to keep everything cold for up to 24 hours.   You’ll also receive
+        an email notification when your bag arrives, so you know when it’s
+        available.</p>
     - q: WHAT DO WE DO WITH THE OLD BAGS?
-      answer_html: '<p>We would love to have them back! To help keep our costs down and keep our deliveries sustainable, please return the old tote bags and cooler boxes (tote bag, insulation and cardboard box included!). We’ll send you a reminder email a day before your delivery. You can leave them where you pick up your bag, and our drivers will pick them up on their next delivery. We’ll then sanitize them for reuse. Win-win! And thank you!</p>'   
+      answer_html: >-
+        <p>We would love to have them back! To help keep our costs down and keep
+        our deliveries sustainable, please return the old tote bags and cooler
+        boxes (tote bag, insulation and cardboard box included!). We’ll send you
+        a reminder email a day before your delivery. You can leave them where
+        you pick up your bag, and our drivers will pick them up on their next
+        delivery. We’ll then sanitize them for reuse. Win-win! And thank
+        you!</p>
     - q: WHEN DOES BILLING HAPPEN?
-      answer_html: '<p>We do our billing every Saturday after you receive your delivery. So if you got a bag on Wednesday, you’ll be billed that Saturday. If you skipped, you won’t be billed that week.</p>'   
+      answer_html: >-
+        <p>We do our billing every Saturday after you receive your delivery. So
+        if you got a bag on Wednesday, you’ll be billed that Saturday. If you
+        skipped, you won’t be billed that week.</p>
     - q: WHAT IF I RECEIVE DAMAGED PRODUCE OR MY DELIVERY IS MISSING AN ITEM?
-      answer_html: '<p>If you receive any disappointing veggies or sad produce, please let us know! Similarly, if something is missing, reach out. You can email us at community@4pfoods.com and we’ll gladly try to correct whatever happened, whether through a refund or an extra item in your next delivery.</p>'   
+      answer_html: >-
+        <p>If you receive any disappointing veggies or sad produce, please let
+        us know! Similarly, if something is missing, reach out. You can email us
+        at community@4pfoods.com and we’ll gladly try to correct whatever
+        happened, whether through a refund or an extra item in your next
+        delivery.</p>
     - q: HOW DO I STORE THIS?! HOW THE HECK DO I COOK RUTABAGE?
-      answer_html: '<p>If you have any questions at all on how to store your delicious produce so it lasts longer, check out our storage tips blog entry. We’ve also collected a bunch of helpful cooking resources to get you started. There are some great tutorials online – everything from the best way to cut an onion, how to sear a steak, and details about cooking techniques such as steaming, braising, and roasting. Need recipes? Check out our 4PFoods pinterest board. We update it every week when we put together our weekly harvest newsletter, which will have a list of recipes itself. The recipes in the newsletter will be curated to reflect the food we are getting that week, while the pinterest board will have recipes organized by what type of food or veggie you are using. Looking for recipes for beets? Winter squash? Collard greens? We’ve got you covered! If you don’t use pinterest and are a 4PFoods member, feel free to email us about our guest Pinterest account.</p>'   
+      answer_html: >-
+        <p>If you have any questions at all on how to store your delicious
+        produce so it lasts longer, check out our storage tips blog entry. We’ve
+        also collected a bunch of helpful cooking resources to get you started.
+        There are some great tutorials online – everything from the best way to
+        cut an onion, how to sear a steak, and details about cooking techniques
+        such as steaming, braising, and roasting. Need recipes? Check out our
+        4PFoods pinterest board. We update it every week when we put together
+        our weekly harvest newsletter, which will have a list of recipes itself.
+        The recipes in the newsletter will be curated to reflect the food we are
+        getting that week, while the pinterest board will have recipes organized
+        by what type of food or veggie you are using. Looking for recipes for
+        beets? Winter squash? Collard greens? We’ve got you covered! If you
+        don’t use pinterest and are a 4PFoods member, feel free to email us
+        about our guest Pinterest account.</p>
     - q: WHAT HAPPENS IN THE WINTER?
-      answer_html: '<p>It may be hard to believe, but we deliver year-round! Learn how we bring you delicious Winter produce here, and about our decision (after extensive member feedback) to source some non-local, seasonal produce in Winter.</p>'   
-    - q: REFERRING A FRIEND, AND OTHER PROMOTIONS
-      answer_html: '<p>Here are some promotions we offer!</p>
-      <p>Refer a friend, and you both get $10 off. Simply share the promo code 4PFRIENDS with your buddy, and they’ll get $10 off their first bag. Email us when they sign up and you get a $10 refund.</p>
-      <p>Refer your office! We are always looking for new office buildings to deliver to. When you put us in touch with your office to schedule a “meet & greet” (where we come to tell more of our story, how it works, etc.) we will give you a free small produce bag.</p>
-      <p>Share 4PFoods on Social media! If you share your 4PFoods creations on social media and tag us, we’ll give you one Farmer Pete Squish toy in one of your upcoming deliveries.</p>'  
+      answer_html: >-
+        <p>It may be hard to believe, but we deliver year-round! Learn how we
+        bring you delicious Winter produce here, and about our decision (after
+        extensive member feedback) to source some non-local, seasonal produce in
+        Winter.</p>
+    - q: 'REFERRING A FRIEND, AND OTHER PROMOTIONS'
+      answer_html: >-
+        <p>Here are some promotions we offer!</p> <p>Refer a friend, and you
+        both get $10 off. Simply share the promo code 4PFRIENDS with your buddy,
+        and they’ll get $10 off their first bag. Email us when they sign up and
+        you get a $10 refund.</p> <p>Refer your office! We are always looking
+        for new office buildings to deliver to. When you put us in touch with
+        your office to schedule a “meet & greet” (where we come to tell more of
+        our story, how it works, etc.) we will give you a free small produce
+        bag.</p> <p>Share 4PFoods on Social media! If you share your 4PFoods
+        creations on social media and tag us, we’ll give you one Farmer Pete
+        Squish toy in one of your upcoming deliveries.</p>
