@@ -8,11 +8,11 @@ framesrc: https://wwws.4pfoods.com/gateway/signup/
     let auth = Cookies.get("4pAuth", { domain: '4pfoods.com' });
     // Change TopNav
     if(auth) {
-      $("loginLink").hide();
-      $("logoutLink").show();
+      $("#loginLink").hide();
+      $("#logoutLink").show();
     } else {
-      $("logoutLink").hide();
-      $("loginLink").show();
+      $("#logoutLink").hide();
+      $("#loginLink").show();
     }
   };
 </script>
