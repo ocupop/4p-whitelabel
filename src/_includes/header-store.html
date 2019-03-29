@@ -1,0 +1,42 @@
+<header id="page-header">
+  <div id="topnav" class="bg-secondary">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-sm-4">
+          <p class="text-right">Already a member? &nbsp;&nbsp;<a href="https://wwws.4pfoods.com/gateway/login"
+              target="whtlbl">Login</a></p>
+          <p class="text-right"><a href="https://wwws.4pfoods.com/gateway/login" class="d-none">Logout</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <nav id="mainnav" class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="/" title="{{ site.title }}"
+        onClick="ga('send', 'event', 'nav-image-link', '4P Logo', '{{ page.title }}');">
+        <img src="/assets/img/logo.svg" alt="{{ site.title }}">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav"
+        aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="primarynav">
+        <ul class="nav navbar-nav ml-auto border-top">
+          <li class="nav-item">
+            <a href="https://wwws.4pfoods.com/account/subscriptions" class="nav-link" target="whtlbl"
+              onClick="ga('send', 'event', 'navlink', 'Subscriptions', '{{ page.title }}');">Subscriptions</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://wwws.4pfoods.com/account/billing" class="nav-link" target="whtlbl"
+              onClick="ga('send', 'event', 'navlink', 'Billing', '{{ page.title }}');">Billing</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://wwws.4pfoods.com/account/profile" class="nav-link" target="whtlbl"
+              onClick="ga('send', 'event', 'navlink', 'Profile', '{{ page.title }}');">My Profile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
