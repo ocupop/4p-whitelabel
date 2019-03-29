@@ -21,3 +21,8 @@
 @import "components/iframe";
 @import "components/modals";
 @import "components/collapsable";
+
+.nav-pills .nav-link {
+  background-color: $light;
+  border: 1px solid $white;
+}

@@ -1,0 +1,20 @@
+---
+layout: page
+title: Recent Bags
+---
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h1 class="text-center">Weekly Harvest Newsletters</h1>
+        <div class="row no-gutters">
+          {% for item in site.data.gallery %}
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <img src="{{ item.image }}" alt="Weekly Bag">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
