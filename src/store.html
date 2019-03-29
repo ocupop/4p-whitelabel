@@ -7,6 +7,14 @@ framesrc: https://wwws.4pfoods.com/gateway/signup/
   function onMyFrameLoad() {
     let auth = Cookies.get("4pAuth", { domain: '4pfoods.com' });
     console.log('myframe is loaded:', auth);
+    // Change TopNav
+    if(auth) {
+      $("loginLink").hide();
+      $("logoutLink").show();
+    } else {
+      $("logoutLink").hide();
+      $("loginLink").show();
+    }
   };
 </script>
 <div id="frameWrap">
