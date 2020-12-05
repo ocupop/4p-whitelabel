@@ -4,6 +4,10 @@ email: dev@ocupop.com
 url: "http://inova.4pfoods.com"
 permalink: pretty
 
+store_url: 'https://shop.4pfoods.com'
+store_login: '/login'
+innova_param: register.php?_ac=inovacsa&location_id=23
+
 # Social sharing
 description:
 socialshare:
